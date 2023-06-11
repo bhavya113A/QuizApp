@@ -9,6 +9,7 @@ function Quiz() {
     
     const changeQuestion = ()=>{
         updateScore();
+        //push into github
         if(currentQuestion< QuizData.length-1){
             setCurrentQuestion(currentQuestion+1);
             setClickedOption(0);
